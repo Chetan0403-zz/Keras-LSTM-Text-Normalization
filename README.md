@@ -16,4 +16,4 @@ This python script attempts to replicate the results of the paper through the fo
    - No attention layer (the paper includes an attention layer)
    - 2 layer decoder network
   
-Be advised to run this script on a GPU. After about 20 epochs on a single GPU (5 days of training), systems produces as accuracy of 97.2%, while the paper has reported an accuracy of 99.6%. The key differences in architecture are a. Use of 4 layers in the paper b. Use of an attention mechanism c. Asynchronous stochaistic gradient descent d. 8 GPUs. To replicate the model architecture above means months of training time (I have just rented one GPU from Amazon) and few hundred dollars of money. 
+Be advised to run this script on a GPU. After about 20 epochs on a single GPU (5 days of training), system produces an accuracy of 97.2%, while the paper has reported an accuracy of 99.6%. The key differences in architecture are a. Use of 4 layers in the paper b. Use of an attention mechanism c. Asynchronous stochaistic gradient descent d. 8 GPUs. To replicate the model architecture above means months of training time (I have just rented one GPU from Amazon) and few hundred dollars of money. 
