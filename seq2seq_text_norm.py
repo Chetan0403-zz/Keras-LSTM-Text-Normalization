@@ -47,7 +47,7 @@ model.add(Activation('softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 print('Decoder layer created')
 
-# Load training datax
+# Load training data
 X_train_data = pd.read_csv("en_train.csv")
 X_train_data['before'] = X_train_data['before'].apply(str)
 X_train_data['after'] = X_train_data['after'].apply(str) 
