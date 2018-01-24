@@ -25,7 +25,7 @@ layers = 2
 NB_EPOCH = 10
 BATCH_SIZE = 32 #Recommended size = 32, try 8 or 16
 train_val_split = 0.005
-#learning_rate = 0.1
+learning_rate = 0.1
 
 # Compiling model before loading any data (some GPUs fail to compile if data sets are large)
 model = Sequential()
