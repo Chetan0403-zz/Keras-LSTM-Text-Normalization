@@ -1,7 +1,5 @@
 # Keras-LSTM-Text-Normalization
 
-With an exponential increase in text and audio data over the last decade, a lot of research has been going on to understand text and language. Machine translation, text normalization, sequence generation, sentiment classification are some of the areas of high interest currently.
-
 This repository is born out of the ongoing Kaggle contest - Text Normalization - sponsored by Google researchers. For a TTS (Text to Speech) system, raw text needs to be normalized before being fed into the system so speech can be generated out of them. For example, if the text '123' is fed to the algorithm, the algorithm should convert it to either a. 'one two three' if it refers to an address like 123 Lincoln Avenue, or b. 'one hundred and twenty three' if it refers to a number. The challenge is the need of an insane amount of training data and training time, and despite that, systems could make outrageous errors. Refer to this paper for more details - 
 https://arxiv.org/ftp/arxiv/papers/1611/1611.00068.pdf
 
